@@ -1,3 +1,0 @@
-alias nhom="cd /var/vagrant/Homestead" #Navigate to homestead
-alias nihub="cd /var/www/clients/ihub_projects" #Navigate to ihub project
-alias ninteract="cd /var/www/projects/interact" #Interact

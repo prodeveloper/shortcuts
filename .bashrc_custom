@@ -3,6 +3,7 @@
 source /var/www/personal/shortcuts/bashrc_git
 source /var/www/personal/shortcuts/bashrc_navigate
 source /var/www/personal/shortcuts/bashrc_vagrant
+source /var/www/personal/shortcuts/bashrc_files
 
 export LC_ALL=en_US.UTF-8
 export PATH=$PATH:/home/jacob/.composer/vendor/bin
