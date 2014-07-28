@@ -1,5 +1,6 @@
-
 alias gac="git add --all && git commit -m" #Add all files in current directory and commit them with a message
 alias gcmt="git commit -m" #Do git commit with a message
 alias gpsh="git push" #Do a git push
 alias gsts="git status" #Query status of git repo
+alias gpsh_d="git push -u origin develop" #Push to develop
+alias gpsh_m="git push -u origin master" #Push to master
