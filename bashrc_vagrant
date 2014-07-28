@@ -1,0 +1,7 @@
+alias vm='cd /var/vagrant/Homestead && vagrant resume && vagrant ssh'
+alias vup="vagrant up" #Bring vagrant up
+alias vres="vagrant resume" #Resume a vagrant instance
+alias vpov="vagrant provision" #Provision a server
+alias vssh="vagrant ssh" #Ssh to the server
+alias vsus="vagrant suspend" #Suspend vagrant server
+alias vhalt="vagrant halt" #Stop vagrant

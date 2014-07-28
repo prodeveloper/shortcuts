@@ -1,13 +1,8 @@
-#Import files
-
-source /var/www/personal/shortcuts/bashrc_git
-source /var/www/personal/shortcuts/bashrc_navigate
-source /var/www/personal/shortcuts/bashrc_vagrant
-
+source .bashrc_git
+source .bashrc_navigate
+source .bashrc_vagrant
 export LC_ALL=en_US.UTF-8
 export PATH=$PATH:/home/jacob/.composer/vendor/bin
-
-
 alias re_bash="source $HOME/.bashrc" #Reloads the bash configurations
 alias ed_bash="vim $HOME/.bashrc_custom" #Edit shortcuts
 alias sbsh="cat $HOME/.bashrc_custom | less" #Show the bash_rc custom page

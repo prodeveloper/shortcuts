@@ -1,0 +1,6 @@
+alias sfor='ls -la | grep'
+alias ll="ls -lah" # List all, with human readable filesizes
+alias srch="ls -la | grep" #Search all files in current directory"  
+
+alias cclip="xclip -sel clip < " #copies values to the system clipboard
+alias tclip="xclip -selection c" #Copies values from command line executions
