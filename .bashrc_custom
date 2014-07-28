@@ -1,0 +1,32 @@
+t
+rt LC_ALL=en_US.UTF-8
+export PATH=$PATH:/home/jacob/.composer/vendor/bin
+
+alias sfor='ls -la | grep'
+alias ll="ls -lah" # List all, with human readable filesizes
+alias gac="git add --all && git commit -m" #Add all files in current directory and commit them with a message
+alias cclip="xclip -sel clip < " #copies values to the system clipboard
+alias tclip="xclip -selection c" #Copies values from command line executions
+
+alias re_bash="source $HOME/.bashrc" #Reloads the bash configurations
+alias ed_bash="vim $HOME/.bashrc_custom" #Edit shortcuts
+
+alias vm='cd /var/vagrant/Homestead && vagrant resume && vagrant ssh'
+alias vup="vagrant up" #Bring vagrant up
+alias vres="vagrant resume" #Resume a vagrant instance
+alias vpov="vagrant provision" #Provision a server
+alias vssh="vagrant ssh" #Ssh to the server
+alias vsus="vagrant suspend" #Suspend vagrant server
+alias vhalt="vagrant halt" #Stop vagrant
+
+alias sbsh="cat $HOME/.bashrc_custom | less" #Show the bash_rc custom page
+alias gcmt="git commit -m" #Do git commit with a message
+alias gpsh="git push" #Do a git push
+alias gsts="git status" #Query status of git repo
+
+alias srch="ls -la | grep" #Search all files in current directory"  
+
+alias nhom="cd /var/vagrant/Homestead" #Navigate to homestead
+alias nihub="cd /var/www/clients/ihub_projects" #Navigate to ihub project
+alias ninteract="cd /var/www/projects/interact" #Interact
+
