@@ -4,3 +4,4 @@ alias gpsh="git push" #Do a git push
 alias gsts="git status" #Query status of git repo
 alias gpsh_d="git push -u origin develop" #Push to develop
 alias gpsh_m="git push -u origin master" #Push to master
+alias gbr_d="git branch -d" #Delete a branch

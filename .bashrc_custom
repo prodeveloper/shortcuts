@@ -1,9 +1,8 @@
 #Import files
-
-source /var/www/personal/shortcuts/bashrc_git
-source /var/www/personal/shortcuts/bashrc_navigate
-source /var/www/personal/shortcuts/bashrc_vagrant
-source /var/www/personal/shortcuts/bashrc_files
+source $CUSTOM_BASH_SOURCE/bashrc_git
+source $CUSTOM_BASH_SOURCE/bashrc_navigate
+source $CUSTOM_BASH_SOURCE/bashrc_vagrant
+source $CUSTOM_BASH_SOURCE/bashrc_files
 
 export LC_ALL=en_US.UTF-8
 export PATH=$PATH:/home/jacob/.composer/vendor/bin
