@@ -5,3 +5,5 @@ alias srch="ls -la | grep" #Search all files in current directory"
 alias cclip="xclip -sel clip < " #copies values to the system clipboard
 alias tclip="xclip -selection c" #Copies values from command line executions
 alias ofold="nautilus $(pwd)" #Opens the current folder
+
+alias sz="du -ha" #Get the file size human
