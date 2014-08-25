@@ -1,0 +1,1 @@
+alias edep="envoy run deploy" #Runs envoy deploy on current folder

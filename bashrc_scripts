@@ -1,0 +1,1 @@
+alias w_internet="php /var/www/scripts/wait.php" #Tries to connect to internet for about an hour. If successfull passes to next process"

@@ -1,0 +1,2 @@
+alias codal="composer dump-autoload" #Composer dump-autoload
+alias coup="composer update" #Update all in corrent project
