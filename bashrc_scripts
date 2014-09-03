@@ -3,3 +3,4 @@ alias w_internet="php /var/www/scripts/wait.php" #Tries to connect to internet f
 alias satis="php /var/www/satis/bin/satis" #Call the satis implimentation 
 
 alias mvup="mv * .[^.]* .. ; cd .." #Move all files up
+alias sizeof="du -ha" #Gets the size of a particular file or folder 
