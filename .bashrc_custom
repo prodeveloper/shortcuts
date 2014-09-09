@@ -1,6 +1,6 @@
 #Import files
 source $CUSTOM_BASH_SOURCE/bashrc_git
-source $CUSTOM_BASH_SOURCE/bashrc_navigate
+#source $CUSTOM_BASH_SOURCE/bashrc_navigate
 source $CUSTOM_BASH_SOURCE/bashrc_vagrant
 source $CUSTOM_BASH_SOURCE/bashrc_files
 source $CUSTOM_BASH_SOURCE/bashrc_deploy
