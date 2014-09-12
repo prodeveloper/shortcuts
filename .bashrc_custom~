@@ -1,8 +1,15 @@
-source .bashrc_git
-source .bashrc_navigate
-source .bashrc_vagrant
+#Import files
+source $CUSTOM_BASH_SOURCE/bashrc_git
+source $CUSTOM_BASH_SOURCE/bashrc_navigate
+source $CUSTOM_BASH_SOURCE/bashrc_vagrant
+source $CUSTOM_BASH_SOURCE/bashrc_files
+source $CUSTOM_BASH_SOURCE/bashrc_deploy
+source $CUSTOM_BASH_SOURCE/bashrc_scripts
+source $CUSTOM_BASH_SOURCE/bashrc_composer
 export LC_ALL=en_US.UTF-8
 export PATH=$PATH:/home/jacob/.composer/vendor/bin
+
+
 alias re_bash="source $HOME/.bashrc" #Reloads the bash configurations
 alias ed_bash="vim $HOME/.bashrc_custom" #Edit shortcuts
 alias sbsh="cat $HOME/.bashrc_custom | less" #Show the bash_rc custom page

@@ -1,0 +1,21 @@
+alias nhom="cd /var/vagrant/Homestead" #Navigate to homestead
+alias nihub="cd /var/www/clients/ihub_projects" #Navigate to ihub project
+alias ninteract="cd /var/www/projects/interact" #Interact
+alias njob="cd /var/www/clients/ajith/job_microblog" #Navigate to job microblog
+alias nmil="cd /var/www/clients/marcus/milliki" #Navigate to the milliki project
+alias nshort="cd /var/www/personal/shortcuts" #Nav to shortcuts directory
+alias npass="cd /var/www/clients/pass" #Navigate to passwords directory
+alias nprog="cd /home/jacob/Dropbox/Programming" #Navigate to dropbox dir with some of my most common programs
+alias nproj="cd /var/www/projects" #Navigate to projects
+alias nclients="cd /var/www/clients" #Navigate to clients folder
+alias nwww="cd /var/www/" #Navigate to web folder
+
+
+alias rihub="mosh forge@104.131.226.178" #Mosh into remote ihub server
+alias rajith="mosh forge@104.131.205.194" #Mosh into remote ajith server
+alias rchencha="mosh forge@104.131.212.177" #Mosh into personal server
+alias rbihub="mosh chencha@41.212.37.124 --ssh='ssh -p 4422'" #Mosh into ihub backup server
+alias sfihub="sftp forge@104.131.226.178" #Sftp into ihub
+alias sfajith="sftp forge@104.131.205.194" #Sftp to server
+alias sfchencha="sftp forge@104.131.212.177" #Sftp to chencha server 
+
