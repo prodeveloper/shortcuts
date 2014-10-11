@@ -1,1 +1,2 @@
 alias lvperm="sudo chmod -R 777 app/storage" #Change permissions to completely all. Suitable for dev environments only
+alias lvide="php artisan ide-helper:generate" #Generate ide docs
