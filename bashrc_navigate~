@@ -12,16 +12,23 @@ alias nwww="cd /var/www/" #Navigate to web folder
 alias nlearning="cd /home/jacob/Documents/Learning" #Navigate to learning folder
 
 alias rihub="mosh forge@104.131.226.178" #Mosh into remote ihub server
-alias rajith="mosh forge@104.131.205.194" #Mosh into remote ajith server
+alias rajith="mosh forge@104.131.205.194" #Mosh into remote ajith server]
+alias rihub_main="mosh root@104.131.90.26"
 alias rchencha="mosh forge@104.131.212.177" #Mosh into personal server
 alias rbihub="mosh chencha@41.212.37.124 --ssh='ssh -p 4422'" #Mosh into ihub backup server
 alias lihub="mosh chencha@192.168.10.32 --ssh='ssh -p 4422'" #Mosh into ihub backup server
 alias rrasp="ssh pi@192.168.0.99" #ssh into raspberry
+alias roajith="mosh root@198.211.109.207" #Old ajith
+alias roihub="mosh root@64.207.153.244" #Old ihub
+
+
 
 alias sfihub="sftp forge@104.131.226.178" #Sftp into ihub
 alias sfajith="sftp forge@104.131.205.194" #Sftp to server
 alias sfchencha="sftp forge@104.131.212.177" #Sftp to chencha server 
 alias sfrasp="sftp pi@192.168.0.99" #Sftp into rasp
+alias sfoajith="sftp root@198.211.109.207" #Old ajith
+alias roihub="sftp root@64.207.153.244" #Old ihub
 
 alias myihub="ssh -N -L3336:127.0.0.1:3306 forge@104.131.226.178" #Tunnel to ihub mysql
 
