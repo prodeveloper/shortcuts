@@ -7,4 +7,4 @@ alias sizeof="du -ha" #Gets the size of a particular file or folder
 
 alias serve="python -m SimpleHTTPServer 8080" #Serves the current folder on port 8080
 
-alias behat="(cd /home/jacob/Documents/software/behat && php behat.phar)" #Run php behat
+alias behat="php /home/jacob/Documents/software/behat/behat.phar" #Run php behat
