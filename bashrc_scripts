@@ -8,3 +8,5 @@ alias sizeof="du -ha" #Gets the size of a particular file or folder
 alias serve="python -m SimpleHTTPServer 8080" #Serves the current folder on port 8080
 
 alias behat="vendor/bin/behat" #Run local installation of behat
+alias elastic="/var/www/shared/elasticsearch-1.4.1/bin/elasticsearch"
+
