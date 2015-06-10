@@ -10,3 +10,5 @@ alias serve="python -m SimpleHTTPServer 8080" #Serves the current folder on port
 alias behat="vendor/bin/behat" #Run local installation of behat
 alias elastic="/var/www/shared/elasticsearch-1.4.1/bin/elasticsearch"
 
+alias research="php /var/www/projects/research/artisan"
+
